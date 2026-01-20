@@ -211,4 +211,10 @@ public class listass {
        cantElem = 0;
        this.insertarLista(L2);
    }
+     public void pasarDig(int n){
+        while( n > 0){
+            this.insertarPri(n % 10);
+            n /= 10;
+        }
+    }
 }
